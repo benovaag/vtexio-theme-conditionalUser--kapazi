@@ -8,7 +8,7 @@ import styles from './styles.css'
 const Greeting = () => {
 	const { data, loading }	= useQuery(getProfile, {ssr: false})
 
-  console.log("data", data)
+  console.log("Se logado", data)
 
 	if (loading) {
 		return <ExtensionPoint id="conditional-user.default" />
