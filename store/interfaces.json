@@ -1,0 +1,18 @@
+{
+  "conditional-user": {
+    "component": "Greeting",
+    "allowed": [
+      "conditional-user.perfilA",
+      "conditional-user.default"
+    ],
+    "composition": "children"
+  },
+  "conditional-user.perfilA": {
+    "component": "CustomExtensionComponent",
+    "composition": "children"
+  },
+  "conditional-user.default": {
+    "component": "DefaultExtensionComponent",
+    "composition": "children"
+  }
+}

@@ -1,15 +1,23 @@
 # Conditional User by cluster Clients in MD - Kapazi
 
-![Media Placeholder](https://user-images.githubusercontent.com/52087100/71204177-42ca4f80-227e-11ea-89e6-e92e65370c69.png)
+## Arquivo Greeting.jsx
+Componente principal do app que irá bater na API verificar o campo do MD e retornar o bloco correto de extension point. 
+
+### Pasta components
+Tem os arquivos que estamos tentando criar como **extension point**
+- PerfilExtensionComponent: Componente que irá renderizar o conteúdo para o perfil logado/default
+- DefaultExtensionComponent: Componente que irá renderizar o conteúdo para o perfil deslogado/default
+
+
+
+
+
+
+
+-----
+
 
 ## Configuration 
-
-In this section, you first must **add the primary instructions** that will allow users to use the app's blocks in their store, such as:
-
-1. Adding the app as a theme dependency in the `manifest.json` file;
-2. Declaring the app's main block in a given theme template or inside another block from the theme.
-
-Remember to add a table with all blocks exported by the app and their descriptions. You can verify an example of it on the [Search Result documentation](https://vtex.io/docs/components/all/vtex.search-result@3.56.1/). 
 
 Next, add the **props table** containing your block's props. 
 
@@ -91,6 +99,8 @@ Thanks goes to these wonderful people:
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
 
 <!-- DOCS-IGNORE:end -->
+
+![Media Placeholder](https://user-images.githubusercontent.com/52087100/71204177-42ca4f80-227e-11ea-89e6-e92e65370c69.png)
 
 ---- 
 

@@ -1,6 +1,6 @@
 {
   "vendor": "tfatr2b2b",
-  "name": "conditionalUser",
+  "name": "conditional-user",
   "version": "0.0.0",
   "title": "conditionalUser",
   "description": "App to conditionalUser by prop in MD",
@@ -9,10 +9,28 @@
     "messages": "1.x",
     "docs": "0.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vtex.css-handles": "1.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.native-types": "0.x",
+    "vtex.apps-graphql": "2.x"
+  },
   "registries": [
     "smartcheckout"
   ],
   "policies": [],
+  "blocks": {
+    "conditional-user": {
+      "component": "Greeting"
+    },
+    "conditional-user.default": {
+      "component": "DefaultExtensionComponent"
+    },
+    "conditional-user.perfilA": {
+      "component": "CustomExtensionComponent"
+    }
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
