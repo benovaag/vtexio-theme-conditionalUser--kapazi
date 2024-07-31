@@ -1,9 +1,9 @@
 {
-  "vendor": "CHANGE_ME",
-  "name": "CHANGE_ME",
+  "vendor": "tfatr2b2b",
+  "name": "conditionalUser",
   "version": "0.0.0",
-  "title": "CHANGE_ME",
-  "description": "CHANGE_ME",
+  "title": "conditionalUser",
+  "description": "App to conditionalUser by prop in MD",
   "builders": {
     "react": "3.x",
     "messages": "1.x",

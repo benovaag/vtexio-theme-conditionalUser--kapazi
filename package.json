@@ -1,6 +1,6 @@
 {
   "version": "0.0.0",
-  "name": "CHANGE_ME",
+  "name": "conditional_user",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -12,23 +12,6 @@
   "intl-equalizer": {
     "referenceLocale": "en",
     "localeDirectory": "messages"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,js,tsx,jsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.json": [
-      "prettier --write"
-    ],
-    "messages/*.json": [
-      "yarn lint:locales"
-    ]
   },
   "devDependencies": {
     "@vtex/intl-equalizer": "^2.5.0",
